@@ -1,10 +1,12 @@
 <?php
-
-//function add($x,$y){
+//默认参数函数
+//function add($x=3,$y=10){
 //    return $x+$y;
 //}
 //
-//echo add(2,4);
+//echo add(1);
+
+//
 
 
 class test {
@@ -13,7 +15,11 @@ class test {
         echo "当前函数为: ".__FUNCTION__;
     }
 }
-
 $t = new  test();
 $t->pri();
+
+
+
+
+
 ?>

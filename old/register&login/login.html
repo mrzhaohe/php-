@@ -1,0 +1,24 @@
+<?php
+//声明 PHP与 HTML 交互的编码
+//1.声明 PHP生成的文件的类型,2.
+header('Content-Type:text/html; charset=utf-8');
+?>
+<!DOCUTYPE html>
+<html>
+<HEAD>
+    <meta charset="utf-8">
+    <title>登录</title>
+</HEAD>
+<body>
+<div style="margin: 0px auto; width: 400px;text-align: center">
+    <form action="login.php" method="post">
+        <fieldset>
+            <legend>登录</legend>
+            <input type="text" name="username" placeholder="请输入用户名"/><br>
+            <input type="password" name="pwd" placeholder="请输入密码"/><br>
+            <input type="submit" name="sub" value="登录">
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
